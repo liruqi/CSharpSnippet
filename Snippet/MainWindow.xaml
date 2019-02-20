@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="TBOutput" HorizontalAlignment="Left" Height="23" Margin="10,247,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="773"/>
+        <TextBox x:Name="TBInput" HorizontalAlignment="Left" Height="23" Margin="10,169,0,0" TextWrapping="Wrap" Text="Paste you url to test..." VerticalAlignment="Top" Width="773" TextChanged="onTextChangd"/>
+
     </Grid>
 </Window>
